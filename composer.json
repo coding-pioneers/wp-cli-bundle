@@ -7,6 +7,13 @@
     ],
     "homepage": "https://wp-cli.org",
     "license": "MIT",
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/coding-pioneers/wp-cli"
+        }
+    ],
     "require": {
         "php": ">=5.4",
         "wp-cli/cache-command": "^2",
@@ -34,7 +41,7 @@
         "wp-cli/shell-command": "^2",
         "wp-cli/super-admin-command": "^2",
         "wp-cli/widget-command": "^2",
-        "wp-cli/wp-cli": "dev-master"
+        "wp-cli/wp-cli": "dev-openshift as 2.3.x-dev"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",

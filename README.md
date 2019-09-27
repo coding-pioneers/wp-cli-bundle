@@ -1,3 +1,9 @@
+WP-CLI OpenShift fork
+======
+This is a fork of WP-CLI that supports sending remote commands into deployed OpenShiftPods.
+
+This repo pulls a forked wp-cli/wp-cli instance instead of the regular one from the Packagist repo.
+
 WP-CLI
 ======
 
